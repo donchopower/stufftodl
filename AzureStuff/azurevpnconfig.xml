@@ -1,0 +1,43 @@
+<AzVpnProfile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+  <any xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Xml" i:nil="true" />
+  <clientauth>
+  <dnssuffixes>
+          <dnssuffix>.play.ground</dnssuffix>
+          <dnssuffix>.play.ground</dnssuffix>
+    </dnssuffixes>
+   <dnsservers>
+        <dnsserver>10.50.0.6</dnsserver>
+           
+    </dnsservers>
+
+    <aad i:nil="true" />
+    <cert>
+      <hash i:nil="true" />
+      <issuer>406232614c88a1ba3f7ac96bcf0780640b2cebed</issuer>
+    </cert>
+    <type>cert</type>
+    <usernamepass i:nil="true" />
+  </clientauth>
+  <clientconfig i:nil="true" />
+  <name>ando-vnet</name>
+  <protocolconfig>
+    <sslprotocolConfig>
+      <transportprotocol>tcp</transportprotocol>
+    </sslprotocolConfig>
+  </protocolconfig>
+  <serverlist>
+    <ServerEntry>
+      <displayname i:nil="true" />
+      <fqdn>azuregateway-31020069-e715-4ba1-a75d-9912c4713c0d-9c96f699acc5.vpn.azure.com</fqdn>
+    </ServerEntry>
+  </serverlist>
+  <servervalidation>
+    <Cert>
+      <hash>DF3C24F9BFD666761B268073FE06D1CC8D4F82A4</hash>
+      <issuer i:nil="true" />
+    </Cert>
+    <serversecret>5605de7af20a55bb0893bbca07112535a421eb34c66bab608f63c987c28551f6b057f3a84551eaf023aa5056607d3201a599192379249e337cbad559b48ad02ad775cad5fa891f51296feb653f8263c32e15500680fc3d57c6a8063810fc6d761eeb40c05a1b52881a7cb9121bd83c8007b8e51c97a78bace7da05840612bd808bd393e0de06697881da6babf68bce733be307c82bddc0fd5976eb9c7b5724e959bfa63e1c7f136c00e6bbc28086488cbe9f4c660484d074bf480023d25a94e1e7c95caa0ee0ccf263d047d5638296777757dfaf3431adf8b3accd2e07c134985478b18fa23f4433b7976e36bc3c0a66416cc9bf05413359e89ede308b34a31f</serversecret>
+    <type>cert</type>
+  </servervalidation>
+  <version>1</version>
+</AzVpnProfile>
